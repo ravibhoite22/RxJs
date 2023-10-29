@@ -16,3 +16,8 @@ useful when you want to provide a history of values to new subscribers or when y
 AsyncSubject: 
 It will not emit any values until the subject’s complete() method is called.
 When completed, it will emit the last value (if any) to subscribers
+
+COLD and HOT OBSERVABLES 
+When the data is produced by the Observable itself, we call it a cold Observable.
+When the data is produced outside the Observable, we call it a hot Observable.
+
