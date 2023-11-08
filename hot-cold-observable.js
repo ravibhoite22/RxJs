@@ -12,12 +12,12 @@ var coldObs = new Observable((observer) => {
 
 //subscriber1
 coldObs.subscribe((res) => {
-  console.log("subscriber1 ", res);
+  console.log("Cold subscriber1 ", res);
 });
 
 //subscriber1
 coldObs.subscribe((res) => {
-  console.log("subscriber2 ", res); //will get different vale then sub1
+  console.log("Cold subscriber2 ", res); //will get different vale then sub1
 });
 
 //Hot observable : produce data out side observable
