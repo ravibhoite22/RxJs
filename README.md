@@ -21,3 +21,12 @@ COLD and HOT OBSERVABLES
 When the data is produced by the Observable itself, we call it a cold Observable.
 When the data is produced outside the Observable, we call it a hot Observable.
 
+map : This operator is used to transform the data emitted by an observable
+
+filter : This operator is used to filter the data emitted by an observable
+
+mergeMap : This operator is used to merge multiple observables into a single observable
+
+concatMap : This operator is used to flatten an Observable by applying a mapping function to each value, and then concatenating the resulting Observables in the order they were emitted
+
+switchMap: used to handle scenarios where you need to switch to a new observable based on the current value of an observable
